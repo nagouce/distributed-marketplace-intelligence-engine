@@ -37,6 +37,7 @@ The engine monitors, extracts, deduplicates, and scores product feeds and trendi
         │    Distribution & Webhook Workers     │
         │    (Multi-channel Alert Dispatcher)   │
         └───────────────────────────────────────┘
+
 ⚡ Core Engineering Features
 Advanced Anti-Bot Evasion (TLS/JA3/JA4 Fingerprinting): Utilizes curl_cffi to spoof Chrome TLS fingerprints at the C-socket level, bypassing Cloudflare, Akamai, and Datadome defenses with minimal CPU/RAM overhead (<150MB RSS).
 Private API Reverse Engineering: Ingests raw JSON payloads directly from internal marketplace endpoints rather than parsing dynamic HTML DOMs.
